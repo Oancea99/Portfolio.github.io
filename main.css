@@ -1,0 +1,497 @@
+*{
+  scroll-behavior: smooth;
+}
+:root{
+  --verde: rgb(44, 192, 130);
+}
+.active{
+  color: var(--verde) !important;
+}
+body {
+  position: relative !important; 
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                partea stanga                               */
+/* -------------------------------------------------------------------------- */
+
+.stanga{
+  position: fixed;
+  width: 16rem;
+  height: 100vh;
+  background-color: rgb(24, 22, 26);
+  justify-content: space-between;
+}
+.img{
+  border: .5rem solid rgb(90, 90, 90);
+}
+.nav-sus{
+  background-color: black;
+}
+.nav-sus .oancea{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.nav a{
+  font-size: 1.1rem;
+  color: whitesmoke;
+  transition: all 0.3s;
+  padding: .7rem;
+}
+.nav a:hover{
+  color: var(--verde);
+}
+/* iconite stanga */
+.iconite i{
+  color: grey;
+  font-size: 1.2rem;
+}
+.fa-facebook:hover{
+  cursor: pointer;
+  color: rgb(62, 62, 163);
+}
+.fa-instagram:hover{
+  cursor: pointer;
+  color: rgb(102, 32, 102);
+}
+.fa-linkedin:hover{
+  cursor: pointer;
+  color: rgb(107, 107, 216);
+}
+.fa-twitter:hover{
+  cursor: pointer;
+  color: rgb(33, 33, 114);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    HOME                                    */
+/* -------------------------------------------------------------------------- */
+
+#home{
+  background: url(img/compute.jpg);
+  background-attachment: fixed;
+}
+.home{
+  margin-left: 16rem;
+  height: 100vh;
+}
+.home h1{
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: white;
+}
+.home h4{
+  font-weight: 400;
+  color: white;
+}
+.home a{
+  border: 2px solid var(--verde);
+  border-radius: 40px;
+  padding: 1rem 3rem;
+  color: var(--verde);
+  text-decoration: none;
+  font-weight: 600;
+}
+.home a:hover{
+  transition: all 0.4s;
+  background-color: var(--verde);
+  color: white;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    ABOUT                                   */
+/* -------------------------------------------------------------------------- */
+#about{
+  margin-left: 16rem;
+}
+#about span{
+  color: var(--verde);
+}
+#about .contact p{
+  font-size: 1.1rem;
+}
+#about .paragraf{
+  font-size: 1.1rem;
+}
+#about .box h1{
+  font-size: 2.5rem;
+}
+#about .box p{
+  font-size: 1.2rem;
+}
+#about.contact p{
+  font-size: 1.1rem;
+}
+#about .contact a{
+  background-color: var(--verde);
+  border-radius: 40px;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: whitesmoke;
+  transition: all 0.4s;
+}
+.contact a:hover{
+  background-color:  rgb(33, 121, 84) !important;
+}
+.box{
+  border-right: 1px solid rgba(128, 128, 128, 0.205);
+}
+.last{
+  border-right: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  What I Do                                 */
+/* -------------------------------------------------------------------------- */
+
+#what{
+  margin-left: 16rem;
+}
+.what-i-do, .section-p{
+  background-color: rgba(238, 238, 238, 0.198);
+}
+#what .fas,
+.fab{
+  color: var(--verde);
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   resume                                   */
+/* -------------------------------------------------------------------------- */
+
+#resume{
+  margin-left:16rem;
+}
+.educatie{
+  height: 25vh;
+}
+.educatie .green{
+  background-color: var(--verde);
+  color: whitesmoke;
+  display: inline;
+  font-size: 1rem;
+}
+.educatie h5{
+  color: red;
+  font-weight: 400;
+}
+.educatie p{
+  font-size: 1.1rem;
+}
+.bara{
+  background-color: var(--verde);
+}
+.skills p{
+  padding-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  portfolio                                 */
+/* -------------------------------------------------------------------------- */
+
+#portfolio{
+  margin-top: 3rem;
+  margin-left:16rem;
+}
+.galerie a{
+  color: white;
+  padding: .5rem;
+  background-color: var(--verde);
+}
+.galerie a:hover{
+  background-color: green;
+  color: white;
+}
+.buton-portofoliu{
+  display: block;
+  background-color: var(--verde)!important;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none !important;
+  font-weight: 600;
+  color:whitesmoke ;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-size: 1rem;
+  border: none;
+}
+.buton-portofoliu:hover{
+  background-color:rgb(31, 126, 86) !important;
+  color: white;
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  contanct                                  */
+/* -------------------------------------------------------------------------- */
+
+#contact{
+  margin-left: 16rem;
+}
+.contact-jos span{
+  color: var(--verde);
+}
+.icons i{
+  font-size: 1.3rem;
+  color: var(--verde);
+  color: grey;
+}
+.contact-jos .fa-facebook{
+  margin-left: .4rem;
+}
+.contact-jos .fa-facebook:hover{
+  cursor: pointer;
+  color: rgb(62, 62, 163);
+}
+.contact-jos .fa-instagram:hover{
+  cursor: pointer;
+  color: rgb(156, 45, 156);
+}
+.contact-jos .fa-linkedin:hover{
+  cursor: pointer;
+  color: rgb(107, 107, 216);
+}
+.contact-jos .fa-twitter:hover{
+  cursor: pointer;
+  color: rgb(119, 119, 185);
+}
+
+.contact-jos .nr{
+  font-size: 1.2rem;
+}
+.fas.fa-phone, 
+.fas.fa-fax,
+.fas.fa-envelope{
+  font-size: 1.2rem;
+}
+
+/* --------------------- button submit forum din My work -------------------- */
+.b-2{
+  background-color: var(--verde);
+  border-radius: 40px;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  font-weight: 600;
+  color:whitesmoke;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-size: 1rem;
+  border: none;
+}
+.submit{
+  width: 100%;
+  border: 2px solid var(--verde) !important;
+  border-radius: 10px;
+  padding: .8rem 0;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color:var(--verde);
+  text-decoration: none;
+  transition: all 0.4s;
+  font-size: 1.2rem;
+  border: none;
+}
+.submit:hover{
+  background-color:rgb(31, 126, 86);
+  color: white;
+  text-decoration: none;
+}
+.b-2:hover{
+  background-color:rgb(31, 126, 86);
+  color: white;
+  text-decoration: none;
+}
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.b-2-container{
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+/* =========================== */
+footer{
+  margin-left: 16rem;
+  background-color: rgb(24, 22, 26);
+}
+footer p a:hover{
+  text-decoration: none;
+}
+
+/* titlu fiecare pagina pagini */
+.titlu h2{
+  font-size: 7rem;
+  font-weight: 700;
+  color: rgba(236, 236, 236, 0.445);
+}
+.titlu p{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.linie-separator{
+  border: 3px solid var(--verde);
+  width: 100px;
+}
+/* titlu fiecare pagina pagini */
+
+
+/* footer */
+/* =========================== */
+#footer p a{
+  color: var(--verde);
+}
+.footer-link{
+  color: black;
+}
+
+.nav-icons i{
+  color: whitesmoke;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    MEDIA                                   */
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width: 992px) {
+  .stanga{
+    display: none !important;
+  }
+  .home,
+  #about,
+  #what,
+  #resume,
+  #portfolio,
+  #contact,
+  footer{
+    margin-left: 0;
+  }
+}
+@media(max-width: 1024px){
+  #home{
+    background-position: center;
+  }
+}
+@media screen and (min-width: 992px){
+  .nav-sus{
+    display: none !important;
+  }
+  .navigatie-sus{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titlu h2{
+    font-size: 5.5rem;
+  }
+  .titlu p{
+    font-size: 2.3rem;
+  }
+  .box{
+    border-right: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+    margin-bottom: 2rem;
+  }
+  .cv{
+    display: flex;
+    justify-content: center;
+  }
+  .adress{
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .titlu h2{
+    font-size: 4.5rem;
+  }
+  .titlu p{
+    font-size: 2rem;
+  }
+  .box{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+    margin-bottom: 2rem;
+  }
+  .adress{
+    margin-top: 2rem;
+  }
+
+  /* teste */
+  .educatie{
+    height: 32vh;
+  }
+  .carduri{
+    margin-bottom: 1.6rem;
+  }
+}
+@media(max-width:425px){
+  .oancea{
+    font-size: 1.3rem !important;
+  }
+  .main-titlu h2{
+    font-size: 1.6rem;
+  }
+  .main-titlu h1{
+    font-size: 3rem;
+  }
+  .main-titlu h4{
+    font-size: 1.3rem;
+  }
+  .about-text h2{
+    font-size: 1.5rem;
+  }
+  .titlu h2{
+    font-size: 4.5rem;
+  }
+  .titlu p{
+    font-size: 2.2rem;
+  }
+  .h2-skill{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .d-cv{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .bara-dreapta p{
+    font-size: 1rem;
+  }
+  .galerie h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .contact-box{
+    justify-content: center;
+  }
+} 
+@media(max-width:375px){
+  .titlu h2{
+    font-size: 4rem;
+  }
+  .titlu p{
+    font-size: 2.1rem;
+  }
+}
+
+@media(max-width:320px){
+  .main-titlu h2{
+    font-size: 1.3rem;
+  }
+  .main-titlu h1{
+    font-size: 2.5rem;
+  }
+  .main-titlu h4{
+    font-size: 1.1rem;
+  }
+  .titlu h2{
+    font-size: 3.5rem;
+  }
+  .titlu p{
+    font-size: 2rem;
+  }
+}
